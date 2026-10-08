@@ -22,3 +22,4 @@ logos/
 *.tif
 *.tiff
 !assets/extension-icon.png
+!media/company-logos.jpg

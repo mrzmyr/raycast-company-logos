@@ -2,6 +2,8 @@
 
 Find a company logo in Raycast. Copy the image, then paste it into a document, slide, canvas, or chat.
 
+![Company Logos in Raycast, showing the searchable company grid and Copy Logo action](media/company-logos.jpg)
+
 ## Install
 
 **Install from source for now.** A Raycast Store listing requires review before one-click installation becomes available.
@@ -59,9 +61,9 @@ Downloaded images are converted to PNG with macOS `sips`, then cached for seven 
 
 ## Source and images
 
-Source code is available under the [MIT license](LICENSE). **Company logos are fetched at runtime and are not included in this repository or its releases.** The catalog contains company names, domains, and search keywords. The bundled extension icon is original geometric artwork.
+Source code is available under the [MIT license](LICENSE). **Individual company logo files are fetched at runtime and are not included in this repository or its releases.** The catalog contains company names, domains, and search keywords. Company logos appear in the UI screenshot only. The bundled extension icon is original geometric artwork.
 
-Keep downloaded logos, caches, and screenshots containing company logos out of contributions. Image files are ignored by Git except for the extension's own icon.
+Keep downloaded logos and caches out of contributions. Image files are ignored by Git except for the extension's own icon and the README screenshot.
 
 ## Check
 
