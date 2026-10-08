@@ -2,9 +2,13 @@
 
 Find a company logo in Raycast. Copy the image, then paste it into a document, slide, canvas, or chat.
 
-## Install locally
+## Install
 
-Requires macOS, Raycast, and Node.js 22 or newer.
+**Install from source for now.** A Raycast Store listing requires review before one-click installation becomes available.
+
+1. Install [Raycast](https://www.raycast.com/) on macOS.
+2. Install [Node.js](https://nodejs.org/en/download) 22 or newer. npm is included.
+3. Open Terminal and run:
 
 ```sh
 git clone https://github.com/mrzmyr/raycast-company-logos.git
@@ -13,7 +17,32 @@ npm ci
 npm run dev
 ```
 
-Open **Search Company Logos** in Raycast. After the first successful build, you can stop the dev process; the extension remains installed.
+4. Wait for `ready - built extension successfully`.
+5. Open Raycast, search **Search Company Logos**, and press Enter.
+6. Stop the Terminal process with **Ctrl+C** when you are done. The extension stays installed.
+
+No API key or additional account is needed. Keep the cloned folder to update the extension later.
+
+### Install without Git
+
+Download the [source ZIP](https://github.com/mrzmyr/raycast-company-logos/archive/refs/heads/main.zip) and unzip it. In Terminal, type `cd `, drag the extracted folder into the window, and press Enter. Then run:
+
+```sh
+npm ci
+npm run dev
+```
+
+### Update or uninstall
+
+To update a Git clone, open Terminal in the project folder and run:
+
+```sh
+git pull --ff-only
+npm ci
+npm run dev
+```
+
+For a ZIP install, download a fresh ZIP and repeat the install steps. To uninstall, open **Raycast Settings → Extensions**, select **Company Logos**, and choose **Remove Extension** from its actions menu.
 
 ## Use
 
